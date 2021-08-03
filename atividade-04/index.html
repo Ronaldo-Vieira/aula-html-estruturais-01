@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 04</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                text-decoration: none;
+            }
+            :root{
+                --title: 40pt;
+                --sub-title: 30pt;
+            }
+            a:link{
+                color: white;
+            }
+            h1{
+                font-size: var(--sub-title);
+                color: black;
+            }
+            img, p{
+                width: 500px;
+                font-size: 16pt;
+            }
+            header, ul{
+                display: flex;
+                justify-content: center;
+            }
+            header, #noticias{
+                height: 100px;
+                align-items: center;
+                background-color: #F6AA1C;
+            }
+            header h1, #noticias h1{
+                font-size: var(--title);
+            }
+            ul{
+                margin-left: 100px;
+            }
+            li{
+                padding: 10px;
+            }
+            section{
+                margin-left: 20px;
+            }
+            #noticias{
+                text-align: center;
+                line-height: 100px;
+            }
+            footer{
+                background-color: #FFEE93;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Tecblog
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            INICIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#noticias">
+                            NOTICIAS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#final">
+                            FINAL
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Aumento de preço dos eletrônicos </h1>
+            <img src="https://img.ibxk.com.br/2020/03/09/09111156392166.jpg?w=1120&h=420&mode=crop&scale=both" alt="">
+            <br>
+            <p>
+                Se seus planos para 2021 incluem a compra de um novo computador ou celular, as previsões não são muito animadoras. Isso porque os preços dos produtos devem continuar caros no primeiro semestre pelo menos. Um dos principais motivos para isso é a queda na fabricação das suas peças internas, de materiais semicondutores. 
+            </p>
+            <br>
+            <p> 
+                Desde o início do ano passado, a pandemia da covid-19 provocou na China —um dos principais produtores dos componentes no mundo— e em outros países efeitos que não permitiram retomar a produção para atender a demanda.
+            </p>
+        </section>
+        <div id="noticias">
+            <h1>Notícias</h1> 
+        </div>
+        <section>
+            <div>
+                <h1>
+                    Preços de componentes eletrônicos devem continuar subindo em 2021; veja o motivo
+                </h1>
+                <img src="https://adrenaline.com.br/uploads/chamadas/chip-memoria-chamada.jpg" alt="">
+                <p>
+                    O preço dos componentes eletrônicos baseados em chips semicondutores deverá continuar subindo em 2021, conforme aponta um relatório divulgado pelo site The Elec. Isso porque ainda há problemas com a capacidade de produção de tais produtos, especialmente num período onde a demanda tem se mantido estável ou até mesmo crescido.
+                </p>
+            </div>
+            <div>
+                <h1>
+                    Lucro das fabricantes de placas de vídeo sobe 370% devido a preços inflacionados
+                </h1>
+                <img src="https://www.oficinadanet.com.br/imagens/post/27791/img_1911_1400x875_5d8e6d5ca92a4.jpg" alt="">
+                <br>
+                <p>
+                    Os analistas que desenvolveram a pesquisa acreditam que as pessoas em casa foi um dos principais fatores do aumento da demanda por placas de vídeo em 2020 e no primeiro semestre de 2021. Para unir o útil ao agradável, essa gente investiu em computadores para o trabalho e também para entretenimento nos momentos de descanso.
+                </p>
+                <br>
+                <p>
+                    Esse fator aliado à escassez de silício e outros componentes necessários para a fabricação das GPUs, a busca maior delas para mineração de bitcoins e a compra de cambistas para a revenda gerou uma avalanche de demanda para pouca oferta do mercado.
+                </p>
+            </div>            
+        </section>
+        <footer id="final">
+            <h3>
+                &copy Ronaldo Vieira, 2021
+            </h3>
+            <h3>
+                <a href="https://github.com/Ronaldo-Vieira" target="_blank"> Github </a>
+            </h3>
+            
+        </footer>
+    </body>
+</html>
